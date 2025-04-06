@@ -1,17 +1,17 @@
-version: 0.2
+# version: 0.2
 
-phases:
-  install:
-    commands:
-      - npm install
-  build:
-    commands:
-      - echo "Build started on `date`"
-      - node index.js &
-  post_build:
-    commands:
-      - echo "Build completed on `date`"
+# phases:
+#   install:
+#     commands:
+#       - npm install
+#   build:
+#     commands:
+#       - echo "Build started on `date`"
+#       - node index.js &
+#   post_build:
+#     commands:
+#       - echo "Build completed on `date`"
 
-artifacts:
-  files:
-    - "**/*"
+# artifacts:
+#   files:
+#     - "**/*"
